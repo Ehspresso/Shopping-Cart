@@ -1,0 +1,42 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+}
+
+.feature-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game {
+    max-width: 23%;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    padding: 3px;
+    margin: 0;
+}
+
+@media (max-width: 500px) {
+    .game {
+        min-width: 150px;
+    }
+}
+
+.games-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
